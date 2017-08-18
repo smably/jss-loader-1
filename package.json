@@ -1,37 +1,25 @@
 {
-  "author": {
-    "name": "Dmitri Farkov"
-  },
-  "bugs": {
-    "url": "https://github.com/KijijiCA/jss-loader/issues"
-  },
-  "dependencies": {
-    "loader-utils": "^0.2.11",
-    "serialize-javascript": "^1.0.0"
-  },
+  "name": "jss-loader",
+  "version": "2.0.0",
   "description": "JSS Loader for Webpack",
-  "devDependencies": {},
-  "homepage": "https://github.com/KijijiCA/jss-loader#readme",
-  "license": "MIT",
   "main": "index.js",
-  "maintainers": [
-    {
-      "email": "dfarkov@kijiji.ca",
-      "name": "deployment"
-    }
-  ],
-  "name": "jss-module-loader",
-  "optionalDependencies": {},
-  "peerDependencies": {
-    "jss": "*"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "readmeFilename": "README.md",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KijijiCA/jss-loader.git"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "Dmitri Farkov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KijijiCA/jss-loader/issues"
   },
-  "version": "1.4.3"
+  "homepage": "https://github.com/KijijiCA/jss-loader#readme",
+  "dependencies": {
+    "loader-utils": "^1.1.0"
+  },
+  "peerDependencies": {
+    "jss": "*"
+  }
 }
